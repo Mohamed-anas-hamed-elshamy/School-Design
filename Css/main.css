@@ -27,6 +27,27 @@ a {
     text-decoration: none;
 }
 
+/* Start coloring Scroll */
+::-webkit-scrollbar {
+    transition: 1s;
+    width: 15px;
+}
+
+
+::-webkit-scrollbar:hover {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+}
+
+/* End coloring Scroll */
+
 /* start Header */
 .header {
     display: flex;
