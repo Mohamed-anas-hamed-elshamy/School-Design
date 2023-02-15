@@ -735,8 +735,14 @@ a {
 
 .section-course .content-course .items {
     display: none;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
+}
+
+@media(max-width:767px) {
+    .section-course .content-course .items {
+        gap: 10px;
+    }
 }
 
 .section-course .content-course .items.active {
